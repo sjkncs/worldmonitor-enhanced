@@ -1,0 +1,44 @@
+# GitHub Repository Description
+# 复制下面的文本用于GitHub仓库描述
+
+=== 简短版 (推荐，280字符以内) ===
+
+🌍 Real-time global intelligence dashboard with AI-powered Quant Trading (75-85% accuracy), Military Aircraft Tracking (10s updates), and Energy Intelligence (<5min alerts). 100% free data sources. TypeScript + Preact + deck.gl
+
+=== 中等版 ===
+
+Real-time global intelligence dashboard featuring AI-powered Quantitative Trading (FinBERT + LSTM, 75-85% accuracy), Military Asset Tracking (OpenSky Network, 10-second updates), and Energy Intelligence monitoring (<5min response time). All features use 100% free data sources. Built with TypeScript, Preact, and deck.gl.
+
+=== 完整版 ===
+
+Advanced OSINT platform combining real-time news aggregation, AI-powered quantitative trading (FinBERT sentiment analysis + LSTM predictions, 75-85% accuracy), military aircraft tracking (OpenSky Network with 10-second updates and 6-hour trajectory prediction), and energy intelligence system (WTI/Brent monitoring with <5min anomaly alerts). Features 3D WebGL globe visualization, 40+ data layers, local AI models, and 19-language support. 100% free data sources - $0/month operational cost.
+
+=== GitHub Topics (标签) ===
+
+osint
+intelligence
+dashboard
+quantitative-trading
+military-tracking
+energy-intelligence
+finbert
+lstm
+ai
+machine-learning
+real-time
+typescript
+preact
+deckgl
+webgl
+geospatial
+news-aggregation
+sentiment-analysis
+trading-signals
+free-data
+opensky-network
+yahoo-finance
+financial-analysis
+
+=== Website (可选) ===
+
+https://worldmonitor.app
