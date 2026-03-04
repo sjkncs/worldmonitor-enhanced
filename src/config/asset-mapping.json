@@ -1,0 +1,80 @@
+{
+  "geopolitical_events": {
+    "ukraine_conflict": {
+      "keywords": ["ukraine", "russia", "donbas", "crimea", "kyiv", "moscow"],
+      "affected_assets": [
+        { "symbol": "CL=F", "type": "commodity", "name": "Crude Oil", "correlation": 0.75 },
+        { "symbol": "GC=F", "type": "commodity", "name": "Gold", "correlation": 0.65 },
+        { "symbol": "EURUSD=X", "type": "forex", "name": "EUR/USD", "correlation": -0.45 },
+        { "symbol": "NG=F", "type": "commodity", "name": "Natural Gas", "correlation": 0.82 }
+      ]
+    },
+    "middle_east_tension": {
+      "keywords": ["israel", "iran", "gaza", "lebanon", "strait of hormuz", "houthi"],
+      "affected_assets": [
+        { "symbol": "CL=F", "type": "commodity", "name": "Crude Oil", "correlation": 0.85 },
+        { "symbol": "LMT", "type": "equity", "name": "Lockheed Martin", "correlation": 0.55 },
+        { "symbol": "XLE", "type": "etf", "name": "Energy ETF", "correlation": 0.70 }
+      ]
+    },
+    "taiwan_strait": {
+      "keywords": ["taiwan", "china", "strait", "semiconductor", "tsmc"],
+      "affected_assets": [
+        { "symbol": "TSM", "type": "equity", "name": "TSMC", "correlation": -0.80 },
+        { "symbol": "NVDA", "type": "equity", "name": "NVIDIA", "correlation": -0.60 },
+        { "symbol": "^IXIC", "type": "index", "name": "NASDAQ", "correlation": -0.50 }
+      ]
+    }
+  },
+  "central_bank_events": {
+    "fed_rate_decision": {
+      "keywords": ["federal reserve", "fomc", "interest rate", "powell", "fed funds"],
+      "affected_assets": [
+        { "symbol": "^GSPC", "type": "index", "name": "S&P 500", "correlation": -0.60 },
+        { "symbol": "DXY", "type": "forex", "name": "US Dollar Index", "correlation": 0.80 },
+        { "symbol": "GC=F", "type": "commodity", "name": "Gold", "correlation": -0.55 },
+        { "symbol": "TLT", "type": "etf", "name": "20Y+ Treasury", "correlation": -0.75 }
+      ]
+    },
+    "ecb_policy": {
+      "keywords": ["ecb", "european central bank", "lagarde", "eurozone"],
+      "affected_assets": [
+        { "symbol": "EURUSD=X", "type": "forex", "name": "EUR/USD", "correlation": 0.70 },
+        { "symbol": "^STOXX50E", "type": "index", "name": "Euro Stoxx 50", "correlation": 0.45 }
+      ]
+    }
+  },
+  "economic_indicators": {
+    "inflation_data": {
+      "keywords": ["cpi", "inflation", "pce", "consumer prices"],
+      "affected_assets": [
+        { "symbol": "GC=F", "type": "commodity", "name": "Gold", "correlation": 0.70 },
+        { "symbol": "TIP", "type": "etf", "name": "TIPS ETF", "correlation": 0.65 }
+      ]
+    },
+    "employment_data": {
+      "keywords": ["nonfarm payrolls", "unemployment", "jobs report", "employment"],
+      "affected_assets": [
+        { "symbol": "DXY", "type": "forex", "name": "US Dollar", "correlation": 0.55 },
+        { "symbol": "^GSPC", "type": "index", "name": "S&P 500", "correlation": 0.50 }
+      ]
+    }
+  },
+  "sector_specific": {
+    "ai_tech": {
+      "keywords": ["artificial intelligence", "ai", "chatgpt", "openai", "nvidia"],
+      "affected_assets": [
+        { "symbol": "NVDA", "type": "equity", "name": "NVIDIA", "correlation": 0.90 },
+        { "symbol": "MSFT", "type": "equity", "name": "Microsoft", "correlation": 0.75 },
+        { "symbol": "GOOGL", "type": "equity", "name": "Alphabet", "correlation": 0.70 }
+      ]
+    },
+    "energy_crisis": {
+      "keywords": ["energy crisis", "power outage", "opec", "oil production"],
+      "affected_assets": [
+        { "symbol": "XLE", "type": "etf", "name": "Energy Sector", "correlation": 0.85 },
+        { "symbol": "XOM", "type": "equity", "name": "ExxonMobil", "correlation": 0.80 }
+      ]
+    }
+  }
+}
